@@ -1,0 +1,177 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.shop-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.cart-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.hero {
+    background-color: #444;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* App.css */
+.product-list {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #212529;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.add-product-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-form input,
+.add-product-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-product-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-product-form button:hover {
+    background-color: #218838;
+}
+
+.manage-products {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manage-products th, .manage-products td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.manage-products th {
+    background-color: #007bff;
+    color: white;
+}
+
+.manage-products tr:hover {
+    background-color: #f1f1f1;
+}
+
+.manage-products button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.manage-products button:hover {
+    background-color: #c82333;
+}
